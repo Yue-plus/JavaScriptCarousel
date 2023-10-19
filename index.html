@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel Demo</title>
+    <script src="./lib/Carousel.js"></script>
+</head>
+<body>
+<div id="carousel" style="width: 300px; height: 300px"></div>
+<script>
+    const IMG = [
+        "./img/1.jpg",
+        "./img/2.gif",
+        "./img/3.gif",
+        "./img/4.gif",
+        "./img/5.gif",
+    ]
+
+    const carousel = new Carousel(document.getElementById("carousel"), IMG, 500)
+</script>
+</body>
+</html>
